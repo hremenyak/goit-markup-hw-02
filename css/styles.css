@@ -33,9 +33,6 @@ body {
   color: var(--title-color);
 }
 
-.logo-black:hover {
-  color: var(--accent-color);
-}
 
 /* Navigation */
 .site-nav .link {
@@ -68,6 +65,7 @@ body {
   width: 1600px;
   height: 600px;
   padding: 200px;
+  text-align: center;
 }
 
 .hero-title {
@@ -145,9 +143,6 @@ line-height: 1.2;
 }
 .logo-white {
   color: var(--primary-white-color);
-}
-.logo-white:hover{
-    color: var(--accent-color);
 }
 .list a {
   text-decoration: none;
