@@ -1,11 +1,13 @@
 :root{
-    --primary-color:hsl(0, 0%, 46%);
-    --title-color:#212121;
-    --accent-color: #2196F3;
+    --primary-color: rgba(117, 117, 117, 1);
+
+    --title-color: rgba(33, 33, 33, 1);;
+    --accent-color: rgba(33, 150, 243, 1);
+    --primary-white-color: #FFFFFF;
 
 }
 body{
-    background-color: #FFFFFF;
+    background-color: var(--primary-white-color)
     color: var(--primary-color);
 }
 .list{
@@ -14,9 +16,10 @@ body{
 
 /* Header */
 .logo{
-    color:#2196F3;
+    color: var(--accent-color);
     text-decoration: none;
 }
+
 .logo-black {
     color: var(--title-color);}
 
@@ -28,14 +31,17 @@ body{
 
   }
 .site-nav .link:hover, .link:focus{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .contacts a {
     color: var(--primary-color);
     text-decoration: none;
 }
 .contacts-info:hover, .contacts-info:focus{
-    color: #2196F3;
+    color: var(--accent-color);
+
+}.site-nav .current{
+    color: var(--accent-color);
 }
   /* Hero */
     .hero{
@@ -46,11 +52,21 @@ body{
     }
 
     .hero-title{
-        color: #FFFFFF;
+        color: var(--primary-white-color);
 
     }
+    /* Button */
     .button{
-        color: #FFFFFF;;
+        color: var(--title-color);
+        cursor: pointer;
+    }
+    .button:hover, .button:focus{
+        color: var(--primary-white-color);
+        background-color: var(--accent-color);
+    }
+    .button.accent {
+        color: var(--primary-white-color);
+        background-color: var(--accent-color);
     }
 
     .button:hover, .button:focus{
@@ -78,13 +94,28 @@ body{
     }
 
     /* Footer */
-    .address a{
+    .footer {
+        background: rgba(47, 48, 58, 1);
+    
+    }
+    .logo-white{
+        color: var(--primary-white-color);
+    }
+.list a{
     text-decoration: none;
+}
+.list .address-street{
+   color: rgba(255, 255, 255, 1);
+ 
+}
+.contacts-footer {
+    color: rgba(255, 255, 255, 0.6);
 
-    }
-    .address  {
-        color:(255, 255, 255, 1);
-    }
-    .address-mail, .address-phone {
-        color:  (255, 255, 255, 0.6);
-    }
+}
+.address-street:hover, .address-street:focus, .contacts-footer:hover, .contacts-footer:focus {
+    color: var(--accent-color);
+}
+/* PORTFOLIO */
+.portfolio {
+    background: #E5E5E5;
+}
