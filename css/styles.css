@@ -1,0 +1,90 @@
+:root{
+    --primary-color:hsl(0, 0%, 46%);
+    --title-color:#212121;
+    --accent-color: #2196F3;
+
+}
+body{
+    background-color: #FFFFFF;
+    color: var(--primary-color);
+}
+.list{
+    list-style: none;
+}
+
+/* Header */
+.logo{
+    color:#2196F3;
+    text-decoration: none;
+}
+.logo-black {
+    color: var(--title-color);}
+
+  /* Navigation */
+  .site-nav .link{
+    text-decoration: none;
+    list-style: none;
+    color: var(--title-color);
+
+  }
+.site-nav .link:hover, .link:focus{
+    color: #2196F3;
+}
+.contacts a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+.contacts-info:hover, .contacts-info:focus{
+    color: #2196F3;
+}
+  /* Hero */
+    .hero{
+        background-color:#2F303A;
+        width: 1600px;
+        height: 600px;
+        padding: 200px;
+    }
+
+    .hero-title{
+        color: #FFFFFF;
+
+    }
+    .button{
+        color: #FFFFFF;;
+    }
+
+    .button:hover, .button:focus{
+    }
+    /* Features */
+  .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
+    
+    .features-title{
+    color: var(--title-color);
+        text-transform: uppercase;
+        
+    }
+    /* Our work */
+    .section-title{
+        color: var(--title-color);
+    }
+
+    /* Footer */
+    .address a{
+    text-decoration: none;
+
+    }
+    .address  {
+        color:(255, 255, 255, 1);
+    }
+    .address-mail, .address-phone {
+        color:  (255, 255, 255, 0.6);
+    }
