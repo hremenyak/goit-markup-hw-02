@@ -8,9 +8,10 @@ body {
   background-color: var(--primary-white-color);
   color: var(--primary-color);
   font-family: Roboto, sans-serif;
-  font-weight: 400;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 .list {
   list-style: none;
@@ -18,6 +19,7 @@ body {
 
 .section-text {
   color: var(--primary-color);
+ 
 }
 /* Header */
 .logo {
@@ -51,6 +53,8 @@ body {
 .contacts a {
   color: var(--primary-color);
   text-decoration: none;
+  font-weight: 500;
+  ;
 }
 .contacts-info:hover,
 .contacts-info:focus {
@@ -62,9 +66,6 @@ body {
 /* Hero */
 .hero {
   background-color: #2f303a;
-  width: 1600px;
-  height: 600px;
-  padding: 200px;
   text-align: center;
 }
 
@@ -73,6 +74,7 @@ body {
   font-weight: 900;
 font-size: 44px;
 line-height: 1.4;
+letter-spacing: 0.06em;
 }
 /* Button */
 .button {
@@ -113,7 +115,7 @@ line-height: 1.6;
 .features-title {
   color: var(--title-color);
   text-transform: uppercase;
-  font-weight: 700px;
+  font-weight: 700;
 font-size: 14px;
 line-height: 1.5;
 }
@@ -135,6 +137,7 @@ line-height: 1.2;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
 }
 
 /* Footer */
@@ -146,12 +149,17 @@ line-height: 1.2;
 }
 .list a {
   text-decoration: none;
+  
 }
 .list .address-street {
   color: rgba(255, 255, 255, 1);
+  font-style: normal;
+  
 }
 .contacts-footer {
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  
 }
 .address-street:hover,
 .address-street:focus,
@@ -161,5 +169,4 @@ line-height: 1.2;
 }
 /* PORTFOLIO */
 .portfolio {
-  background: #e5e5e5;
 }
